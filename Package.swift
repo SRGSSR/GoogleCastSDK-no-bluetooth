@@ -3,15 +3,14 @@
 import PackageDescription
 
 struct PackageMetadata {
-    static let version: String = "4.7.1-beta.1"
-    static let checksum: String = "cb4bfb426ee381c2b42ca7d7d96d3081da315af6d84b53c4dff52fa9edf66c9a"
+    static let version: String = "4.8.0"
+    static let checksum: String = "ae6db94f6fff7720bc28faac2f5dbd0b9c5af0215a1819c4682f7060f21eb1bb"
 }
 
 let package = Package(
     name: "GoogleCastSDK-no-bluetooth",
     platforms: [
-        .iOS(.v12),
-        .tvOS(.v12)
+        .iOS(.v13),
     ],
     products: [
         .library(
